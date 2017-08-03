@@ -16,6 +16,15 @@ int main(){
 			case '\"':
 				std::cout<<"\\\"";
 				break;
+			case '\r':
+				std::cout<<"\\r";
+				break;
+			case '\n':
+				std::cout<<"\\n";
+				break;
+			case '\t':
+				std::cout<<"\\t";
+				break;
 			default:
 				std::cout<<ch;
 		}
